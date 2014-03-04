@@ -11,6 +11,7 @@ The formulas are rendered with the MathJax library:
 For help around the MathJax library, visit this link:
 - http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
 
+The formulas are written in res/values/strings.xml file, then displayed through the Java Files.
 ==============
 <b>LICENSE</b>
 - 
