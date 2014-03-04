@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listviewbackground"
+    android:id="@+id/rlWelcome">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello geek!\nWelcome To Pocket Formulas!"
+        android:id="@+id/helloGeek"
+        android:gravity="center"
+        android:textColor="@color/BrightBlue"
+        android:textSize="26dp"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/imageLazarko"
+        android:src="@drawable/lazarko"
+        android:layout_below="@+id/helloGeek"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Meet Lazarko!"
+        android:id="@+id/meetLazarko"
+        android:layout_below="@+id/imageLazarko"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:textColor="@color/BrightBlue"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="He will now show you how to use\nthis application. Just swipe from right to left and let him do his job!"
+        android:id="@+id/heWill"
+        android:layout_below="@+id/meetLazarko"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/BrightBlue"
+        android:textSize="18dp"
+        android:gravity="center" />
+
+</RelativeLayout>

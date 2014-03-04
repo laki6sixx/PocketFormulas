@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listviewbackground">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@drawable/formulas_bgr">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:src="@drawable/sinx" />
+
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:src="@drawable/cosx" />
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:src="@drawable/tangens" />
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:src="@drawable/cscx" />
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:src="@drawable/secx" />
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:src="@drawable/cotx" />
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:src="@drawable/asinx" />
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:src="@drawable/acosx" />
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:src="@drawable/atanx" />
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:src="@drawable/acscx" />
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:src="@drawable/asecx" />
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:src="@drawable/acotx" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

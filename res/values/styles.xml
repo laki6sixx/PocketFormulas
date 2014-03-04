@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/ActionBackground</item>
+        <item name="android:icon">@android:color/transparent</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="ActionBackground" parent="android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/BrightBlue</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

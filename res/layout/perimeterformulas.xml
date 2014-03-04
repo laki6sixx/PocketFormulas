@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listviewbackground">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@drawable/formulas_bgr">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_height="180dp"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/squareper" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvSquarePer"
+                    android:text="Square"
+                    android:textColor="@color/RedPerimeter"
+                    android:layout_gravity="center_horizontal" />
+
+                <WebView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/wvSquarePer" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="180dp"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/rectangleper" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvRectanglePer"
+                    android:text="Rectangle"
+                    android:textColor="@color/RedPerimeter"
+                    android:layout_gravity="center_horizontal" />
+
+                <WebView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/wvRectanglePer" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="180dp"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/triangleper" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvTrianglePer"
+                    android:text="Triangle"
+                    android:textColor="@color/RedPerimeter"
+                    android:layout_gravity="center_horizontal" />
+
+                <WebView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/wvTrianglePer" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="180dp"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/circleper" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvCirclePer"
+                    android:text="Circle"
+                    android:textColor="@color/RedPerimeter"
+                    android:layout_gravity="center_horizontal" />
+
+                <WebView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/wvCirclePer" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

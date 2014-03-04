@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Gray">#e7e7e7</color>
+    <color name="DarkGray">#848484</color>
+    <color name="BrightBlue">#32b3e2</color>
+    <color name="Asbestos">#7f8c8d</color>
+    <color name="Silver">#bdc3c7</color>
+    <color name="Orange">#f39c12</color>
+    <color name="Turquoise">#1abc9c</color>
+    <color name="Pink">#f17288</color>
+    <color name="RedLogarithm">#e74c3c</color>
+    <color name="BlueAlgebraGraphs">#3498db</color>
+    <color name="GreenPolynomials">#2ecc71</color>
+    <color name="GreenSurface">#9acc6b</color>
+    <color name="RedPerimeter">#f26262</color>
+    <color name="YellowVolume">#fcc95c</color>
+    <color name="BlueTrigonomericGraphs">#36c3f1</color>
+    <color name="PinkHyperbolic">#dd96c0</color>
+    <color name="GreenTrTrigonometricIdentities">#9cbe5b</color>
+    <color name="YellowCalculusIdentities">#e8b84c</color>
+    <color name="RedSpecialFunctions">#d24d47</color>
+    <color name="BlueTableOfIntegrals">#1aace5</color>
+
+</resources>

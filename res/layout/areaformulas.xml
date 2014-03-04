@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listviewbackground">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@drawable/formulas_bgr">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_height="180dp"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/square" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvSquareArea"
+                    android:text="Square"
+                    android:textColor="@color/BrightBlue"
+                    android:layout_gravity="center_horizontal" />
+
+                <WebView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/wvSquare" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="180dp"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/rectangle" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvRectangleArea"
+                    android:text="Rectangle"
+                    android:textColor="@color/BrightBlue"
+                    android:layout_gravity="center_horizontal" />
+
+                <WebView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/wvRectangle" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="180dp"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/parallelogram" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvParallelogramArea"
+                    android:text="Parallelogram"
+                    android:textColor="@color/BrightBlue"
+                    android:layout_gravity="center_horizontal" />
+
+                <WebView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/wvParallelogram" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="180dp"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/trapezoid" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvTrapezoidArea"
+                    android:text="Trapezoid"
+                    android:textColor="@color/BrightBlue"
+                    android:layout_gravity="center_horizontal" />
+
+                <WebView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/wvTrapezoid" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="180dp"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/circle" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvCircleArea"
+                    android:text="Circle"
+                    android:textColor="@color/BrightBlue"
+                    android:layout_gravity="center_horizontal" />
+
+                <WebView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/wvCircle" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="180dp"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ellipse" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvEllipseArea"
+                    android:text="Ellipse"
+                    android:textColor="@color/BrightBlue"
+                    android:layout_gravity="center_horizontal" />
+
+                <WebView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/wvEllipse" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="180dp"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/triangle" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvTriangleArea"
+                    android:text="Triangle"
+                    android:textColor="@color/BrightBlue"
+                    android:layout_gravity="center_horizontal" />
+
+                <WebView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/wvTriangle" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="180dp"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/equilateraltriangle" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvEquilateralTriangleArea"
+                    android:text="Equilateral Triangle"
+                    android:textColor="@color/BrightBlue"
+                    android:layout_gravity="center_horizontal" />
+
+                <WebView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/wvEquilateralTriangle" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

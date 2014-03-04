@@ -1,0 +1,265 @@
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="TypographyDashes">
+
+    <string name="app_name">Pocket Formulas</string>
+    <string name="title_section1">ALGEBRA</string>
+    <string name="title_section2">GEOMETRY</string>
+    <string name="title_section3">TRIGONOMETRY</string>
+    <string name="title_section4">CALCULUS</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="startedBefore">false</string>
+    <string name="title_changelog">Change log</string>
+    <string name="changelog_close">Close</string>
+    <string name="ga_trackingId">UA-44582281-2</string>
+    <bool name="ga_autoActivityTracking">true</bool>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+
+    <string-array name="tex_examples">
+        <item>
+            \\int_{-\\infty}^{\\infty} e^{-x^2}\\, dx = \\sqrt{\\pi}
+        </item>
+        <item>
+            \\sum_{n=1}^{\\infty}\\frac1{n^2}=\\frac{\\pi^2}6</item>
+        <item>
+            \\int_a^b f(x)\\, dx = F(b) - F(a)\\ \\text{where}\\ F\'(x)=f(x)
+        </item>
+        <item>
+            \\iint_D (\\vec\\nabla\\times\\vec F)\\cdot\\vec n\\ dS = \\oint_{\\partial D} \\vec F\\cdot d\\vec r
+        </item>
+        <item>
+            x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}</item>
+        <item>
+            f(z_0)= \\frac1{2\\pi i}\\oint_\\gamma \\frac{f(z)}{z-z_0} dz
+        </item>
+    </string-array>
+
+    <!--LOGARITHMS-->
+    <string name="logarithmsPrva">y = log_b(x)  \\rightarrow  x = b^y</string>
+    <string name="logarithmsVtora">log_b(1) = 0</string>
+    <string name="logarithmsTreta">log_b(b) = 1</string>
+    <string name="logarithmsCetvrta">log_b(x*y) = log_b(x) + log_b(y)</string>
+    <string name="logarithmsPeta">log_b\\left(\\frac{x}{y}\\right) = log_b(x) - log_b(y)</string>
+    <string name="logarithmsSesta">log_b(x^n) = n * log_b(x)</string>
+    <string name="logarithmsSedma">log_b(x) = log_b(c) * log_c(x) = \\frac{log_c(x)}{log_c(b)}</string>
+
+    <!--POLYNOMIALS-->
+    <string name="polynomialsPrva">(a+b)^2 = a^2 + 2ab + b^2</string>
+    <string name="polynomialsVtora">(a+b)(c+d) = ac + ad + bc + bd</string>
+    <string name="polynomialsTreta">a^2 - b^2 = (a+b)(a-b)</string>
+    <string name="polynomialsCetvrta">a^3 \\pm b^3 = (a\\pm b)(a^2 \\pm ab + b^2)</string>
+    <string name="polynomialsPeta">x^2 + (a+b)x + AB = (x+a)(x+b)</string>
+    <string name="polynomialsSesta">if\\rightarrow ax^2+bx+c=0</string>
+    <string name="polynomialsSedma">then\\rightarrow x=\\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}</string>
+
+    <!--POWERS-->
+    <string name="powersPrva">x^a x^b = x ^{(a+b)}</string>
+    <string name="powersVtora">x^a y^a = (xy)^a</string>
+    <string name="powersTreta">(x^a)^b = (x) ^ {(ab)}</string>
+    <string name="powersCetvrta">x^{(\\frac{a}{b})} = \\sqrt[b]{x^a}</string>
+    <string name="powersPeta">x ^ {-a} = \\frac{1}{x^a}</string>
+    <string name="powersSesta">x ^ {(a-b)} = \\frac{x^a}{x^b}</string>
+    
+    <!--HYPERBOLIC IDENTITIES-->
+    <string name="hyperbolicPrva">sinh \\; x = \\frac{(e^x - e^{-x})}{2}</string>
+    <string name="hyperbolicVtora">csch \\; x = \\frac{1}{sinh \\; x} = \\frac{2}{(e^x - e^{-x})}</string>
+    <string name="hyperbolicTreta">cosh \\; x = \\frac{(e^x + e^{-x})}{2}</string>
+    <string name="hyperbolicCetvrta">sech \\; x = \\frac{1}{cosh \\; x} = \\frac{2}{(e^x + e^{-x})}</string>
+    <string name="hyperbolicPeta">tanh \\; x = \\frac{sinh \\; x}{cosh \\; x} = \\frac{(e^x - e^{-x})}{(e^x + e^{-x})}</string>
+    <string name="hyperbolicSesta">coth \\; x = \\frac{1}{tanh \\; x} = \\frac{(e^x + e^{-x})}{(e^x - e^{-x})}</string>
+    <string name="hyperbolicSedma">cosh^2 \\; x - sinh^2 \\; x = 1</string>
+    <string name="hyperbolicOsma">tanh^2 \\; x + sech^2 \\; x = 1</string>
+    <string name="hyperbolicDeveta">coth^2 \\; x - csch^2 \\; x = 1</string>
+    <string name="hyperbolicDeseta">arcsinh \\; z = ln(z + \\sqrt{z^2 + 1})</string>
+    <string name="hyperbolicEdinaeseta">arccosh \\; z = ln(z \\pm \\sqrt{z^2 - 1})</string>
+    <string name="hyperbolicDvanaeseta">arctanh \\; z = \\frac{1}{2} ln\\left(\\frac{1+z}{1-z}\\right)</string>
+    <string name="hyperbolicTrinaeseta">arccsch \\; z = ln\\left(\\frac{1 + \\sqrt{1 + z^2}}{z}\\right)</string>
+    <string name="hyperbolicCetirinaeseta">arcsech \\; z = ln\\left(\\frac{1 \\pm \\sqrt{1 - z^2}}{z}\\right)</string>
+    <string name="hyperbolicPetnaeseta">arccoth \\; z = \\frac{1}{2} ln\\left(\\frac{z+1}{z-1}\\right)</string>
+    <string name="hyperbolicSesnaeseta">sinh \\; z = -i * sin \\; (iz)</string>
+    <string name="hyperbolicSedumnaeseta">csch \\; z= i*csc \\; (iz)</string>
+    <string name="hyperbolicOsumnaeseta">cosh \\; z = cos \\; (iz)</string>
+    <string name="hyperbolicDevetnaeseta">sech \\; z = sec \\; (iz)</string>
+    <string name="hyperbolicDvaeseta">tanh \\; z = -i * tanh \\; (iz)</string>
+    <string name="hyperbolicDvaesetiprva">coth \\; z = i*cot \\; (iz)</string>
+
+    <!--TRIGONOMETRIC IDENTITIES-->
+    <string name="trigonometricIdentitiesPrva">sin \\theta = \\frac{a}{c}</string>
+    <string name="trigonometricIdentitiesVtora">csc \\theta = \\frac{1}{sin \\theta} = \\frac{c}{a}</string>
+    <string name="trigonometricIdentitiesTreta">cos \\theta = \\frac{b}{c}</string>
+    <string name="trigonometricIdentitiesCetvrta">sec \\theta = \\frac{1}{cos \\theta} = \\frac{c}{b}</string>
+    <string name="trigonometricIdentitiesPeta">tan \\theta = \\frac{sin \\theta}{cos \\theta} = \\frac{a}{b}</string>
+    <string name="trigonometricIdentitiesSesta">cot \\theta = \\frac{1}{tan \\theta} = \\frac{b}{a}</string>
+    <string name="trigonometricIdentitiesSedma">sin(-x) = -sin(x)</string>
+    <string name="trigonometricIdentitiesOsma">csc(-x) = -csc(x)</string>
+    <string name="trigonometricIdentitiesDeveta">cos(-x) = cos(x)</string>
+    <string name="trigonometricIdentitiesDeseta">sec(-x) = sec(x)</string>
+    <string name="trigonometricIdentitiesEdinaeseta">tan(-x) = -tan(x)</string>
+    <string name="trigonometricIdentitiesDvanaeseta">cot(-x) = -cot(x)</string>
+    <string name="trigonometricIdentitiesTrinaeseta">sin^2 x + cos^2 x = 1</string>
+    <string name="trigonometricIdentitiesCetirinaeseta">tan^2 x + 1 = sec^2 x</string>
+    <string name="trigonometricIdentitiesPetnaeseta">cot^2 x + 1 = csc^2 x</string>
+    <string name="trigonometricIdentitiesSesnaeseta">sin(x \\pm y) = sinx*cosy \\pm cosx*siny</string>
+    <string name="trigonometricIdentitiesSedumnaeseta">cos(x \\pm y) = cosx*cosy \\mp sinx*siny</string>
+    <string name="trigonometricIdentitiesOsumnaeseta">tan(x \\pm y) = \\frac{tanx \\pm tany}{1 \\mp tanx*tany}</string>
+    <string name="trigonometricIdentitiesDevetnaeseta">sin(2x) = 2sinx*cosx</string>
+    <string name="trigonometricIdentitiesDvaeseta">cos(2x) = 1 – 2sin^2x</string>
+    <string name="trigonometricIdentitiesDvaesetiprva">tan(2x) = \\frac{2tanx}{1 - tan^2x}</string>
+    <string name="trigonometricIdentitiesDvaesetivtora">sin^2x = \\frac{1}{2} - \\frac{1}{2}cos2x</string>
+    <string name="trigonometricIdentitiesDvaesetitreta">cos^2x = \\frac{1}{2} + \\frac{1}{2}cos2x</string>
+    <string name="trigonometricIdentitiesDvaeseticetvrta">sinx - siny = 2sin\\frac{x-y}{2}cos\\frac{x+y}{2}</string>
+    <string name="trigonometricIdentitiesDvaesetipeta">cosx - cosy = -2sin\\frac{x-y}{2}sin\\frac{x+y}{2}</string>
+    <string name="trigonometricIdentitiesDvaesetisesta">\\frac{a}{sina} = \\frac{b}{sinb} = \\frac{c}{sinc}</string>
+    <string name="trigonometricIdentitiesDvaesetisedma">c^2 = a^2 + b^2 – 2ab*cosC</string>
+    <string name="trigonometricIdentitiesDvaesetiosma">b^2 = a^2 + c^2 – 2ac*cosB</string>
+    <string name="trigonometricIdentitiesDvaesetideveta">a^2 = b^2 + c^2 – 2bc*cosA</string>
+    <string name="trigonometricIdentitiesTriesta">\\frac{a-b}{a+c}=\\frac{tan\\left( \\frac{A-B}{2} \\right)}{tan\\left( \\frac{A+B}{2} \\right)}</string>
+
+    <!--INTEGRAL IDENTITIES-->
+    <string name="integralIdentitiesPrva">\\int_a^b f(x)dx = \\lim_{d\\rightarrow 0} \\sum_{k=1}^n f(X_k)(x_k - x_{k-1})</string>
+    <string name="integralIdentitiesVtora">\\int_a^b F \\; \'(x)dx = F(b) - F(a)</string>
+    <string name="integralIdentitiesTreta">\\int a*f(x)dx = a*\\int f(x)dx \\rightarrow \\text{if $a$ is a const}</string>
+    <string name="integralIdentitiesCetvrta">\\int f(x) + g(x) dx = \\int f(x)dx + \\int g(x)dx</string>
+    <string name="integralIdentitiesPeta">\\int_a^b f(x)dx = \\int f(x)dx \\; \\; | \\; \\; (ab)</string>
+    <string name="integralIdentitiesSesta">\\int_a^b f(x)dx + \\int_b^c f(x)dx = \\int_a^c f(x)dx</string>
+    <string name="integralIdentitiesSedma">\\int f(u) \\frac{du}{dx}dx = \\int f(u)du</string>
+    <string name="integralIdentitiesOsma">\\int sinx \\; dx = -cosx + C</string>
+    <string name="integralIdentitiesDeveta">\\int cscx \\; dx = -cosx + C</string>
+    <string name="integralIdentitiesDeseta">\\int cos \\; dx = sinx + C</string>
+    <string name="integralIdentitiesEdinaeseta">\\int secx \\; dx = \\ln{(secx + tanx)} + C</string>
+    <string name="integralIdentitiesDvanaeseta">tanx \\; dx = -\\ln{(cosx)} + C</string>
+    <string name="integralIdentitiesTrinaeseta">\\int cotx \\; dx = \\ln{(sinx)} + C</string>
+    <string name="integralIdentitiesCetirinaeseta">\\int cosx \\; dx = sinx + C</string>
+    <string name="integralIdentitiesPetnaeseta">\\int cscx * cotx \\; dx = -cscx + C</string>
+    <string name="integralIdentitiesSesnaeseta">\\int sinx \\; dx = cosx + C</string>
+    <string name="integralIdentitiesSedumnaeseta">\\int secx * tanx \\; dx = secx + C</string>
+    <string name="integralIdentitiesOsumnaeseta">\\int sec^2 x \\; dx = tanx + C</string>
+    <string name="integralIdentitiesDevetnaeseta">\\int csc^2x \\; dx = -cotx + C</string>
+    <string name="integralIdentitiesDvaeseta">\\int arcsin \\; x \\; dx = x * arcsin \\; x + \\sqrt{1 + x^2} + C</string>
+    <string name="integralIdentitiesDvaesetiPrva">\\int arccsc \\; x \\; dx = x * arccos \\; x - \\sqrt{1 - x^2} + C</string>
+    <string name="integralIdentitiesDvaesetiVtora">\\int arctan \\; x \\; dx = x * arctan \\; x -\\frac{1}{2} \\ln{(1+x^2)} + C</string>
+    <string name="integralIdentitiesDvaesetiTreta">\\int \\frac{dx}{\\sqrt{1 - x^2}} = arcsin \\; x + C</string>
+    <string name="integralIdentitiesDvaesetiCetvrta">\\int \\frac{dx}{x \\sqrt{x^2 - 1}} = arcsec \\; |x| + C</string>
+    <string name="integralIdentitiesDvaesetiPeta"> \\int \\frac{dx}{1 + x^2} = arctan \\; x + C</string>
+    <string name="integralIdentitiesDvaesetiSesta">arccos \\; x = \\frac{\\pi}{2 - arcsin \\; x}</string>
+    <string name="integralIdentitiesDvaesetiSedma">\\text{for (-1 $\\le$ x $\\le$ 1)}</string>
+    <string name="integralIdentitiesDvaesetiOsma">arccsc \\; x = \\frac{\\pi}{2 - arcsec \\; x}</string>
+    <string name="integralIdentitiesDvaesetiDeveta">\\text{for (|x| $\\ge$ 1)}</string>
+    <string name="integralIdentitiesTrieseta">arccot \\; x = \\frac{\\pi}{2 - arctan \\; x}</string>
+    <string name="integralIdentitiesTriesetiPrva">\\text{(for all x)}</string>
+    <string name="integralIdentitiesTriesetiVtora">\\int sinh \\; x \\; dx = cosh \\; x + C</string>
+    <string name="integralIdentitiesTriesetiTreta">\\int csch \\; x \\; dx = \\ln{\\left(tanh \\frac{x}{2} \\right)} + C</string>
+    <string name="integralIdentitiesTriesetiCetvrta">\\int cosh \\; x \\; dx = sinh \\; x + C</string>
+    <string name="integralIdentitiesTriesetiPeta">\\int sech \\; x \\; dx = arctan(sin \\; x) + C</string>
+    <string name="integralIdentitiesTriesetiSesta">\\int tanh \\; x \\; dx = \\ln{(cosh \\; x)} + C</string>
+    <string name="integralIdentitiesTriesetiSedma">\\int coth \\; x \\; dx = \\ln{(sin \\; x)} + C</string>
+
+    <!--SPECIAL FUNCTIONS-->
+    <string name="specialFunctionsPrva">\\gamma \\; (x) = \\int_x^{\\infty} t^{ \\; x-1} e^{-t}dt</string>
+    <string name="specialFunctionsVtora">\\beta \\; (x,y) = \\int_0^1 t^{ \\; x-1}(1-t)^{y-1}dt</string>
+    <string name="specialFunctionsTreta">Ei(x) = \\int_x^{\\infty} \\frac{e^{-1}}{t}dt \\; \\; \\text{(exponential integral)}</string>
+    <string name="specialFunctionsCetvrta">Ei(x) = \\gamma + \\ln{x} + \\int_0^x \\frac{e^t - 1}{t}dt \\; \\; \\text{(nonequivalent form)}</string>
+    <string name="specialFunctionsPeta">li(x) = \\int_2^x \\frac{1}{\\ln{x}}dt \\; \\; \\text{(logarithmic integral)}</string>
+    <string name="specialFunctionsSesta">Si(x) = \\int_x^{\\infty} \\frac{sin \\; t}{t}dt \\; \\; \\text{(sine integral)}</string>
+    <string name="specialFunctionsSedma">Si(x) = \\int_{\\, 0}^{\\, \\infty} \\frac{sin \\; t}{t}dt = \\frac{\\pi}{2} - \\int_{\\, x}^{\\, \\infty} \\frac{sin \\; t}{t}dt \\; \\; \\text{(nonequivalent form)}</string>
+    <string name="specialFunctionsOsma">Ci(x) = \\int_{\\, x}^{\\, \\infty} \\frac{cos \\; t}{t}dt \\; \\; \\text{(cosine integral)}</string>
+    <string name="specialFunctionsDeveta">Ci(x) = - \\int_{\\, x}^{\\, \\infty} \\frac{cos \\; t}{t}dt \\; \\; \\text{(nonequivalent form)}</string>
+    <string name="specialFunctionsDeseta">Chi(x) = \\gamma + \\ln{x} + \\int_0^x \\frac{cosh \\; t - 1}{t}dt \\; \\; \\text{(hyperbolic cosine integral)}</string>
+    <string name="specialFunctionsEdinaeseta">Shi(x) = \\int_{\\, 0}^{\\, x} \\frac{sinh \\; t}{t}dt \\; \\; \\text{(hyperbolic sine integral)}</string>
+    <string name="specialFunctionsDvanaeseta">Erf(x) = \\frac{2}{\\sqrt{\\pi}} \\int_0^x e^{-t-2}dt \\; \\; \\text{(error function)}</string>
+    <string name="specialFunctionsTrinaeseta">FresnelC(x) = \\int_{\\, 0}^{\\, x} cos \\frac{\\pi}{2t^2}dt</string>
+    <string name="specialFunctionsCetirinaeseta">FresnelS(x) = \\int_0^x sin \\frac{\\pi}{2t^2}dt</string>
+    <string name="specialFunctionsPetnaeseta">dilog(x) = \\int_1^x \\frac{\\ln{(t)}}{1 - t}dt</string>
+    <string name="specialFunctionsSesnaeseta">Psi(x) = \\frac{d}{dx} \\ln{\\left(\\gamma(x)\\right)}</string>
+    <string name="specialFunctionsSedumnaeseta">Psi(n,x) = n^{\\text{th}} \\text{derivative of Psi(x)}</string>
+    <string name="specialFunctionsOsumnaeseta">W(x) = \\text{inverse of } xe^x</string>
+    <string name="specialFunctionsDevetnaeseta">L_n(x) = \\left( \\frac{e^x}{n!}\\right) (x^n e^{-x})^n  \\; \\; \\text{(laguerre polynomial degree)}</string>
+    <string name="specialFunctionsDvaeseta">Z(x) = \\sum_{n=1}^{\\infty} \\frac{1}{n^s}</string>
+    <string name="specialFunctionsDvaesetiPrva">\\beta (x) = \\sum_{n=0}^{\\infty} \\frac{-1^n}{(2n + 1) ^ n} \\; \\; \\text{(Dirichlet\'s beta func.)}</string>
+
+
+    <!--TABLE OF INTEGRALS-->
+    <string name="tableOfIntegralsPrva">\\int x^n \\; dx = \\frac{x^{n+1}}{n+1} + C</string>
+    <string name="tableOfIntegralsVtora">\\int \\frac{1}{x}dx = \\ln{(x)} + C</string>
+    <string name="tableOfIntegralsTreta">\\int e^x \\; dx = e^x + C</string>
+    <string name="tableOfIntegralsCetvrta">\\int b^x \\; dx = \\frac{b^x}{\\ln{(b)}} + C</string>
+    <string name="tableOfIntegralsPeta">\\int \\ln{(x)}dx = x * \\ln{(x)} - x + C</string>
+
+    <!--DERIVATIVE IDENTITIES-->
+    <string name="derivativeIdentitiesPrva">f \\, \' \\left(c*f(x) \\right) = c</string>
+    <string name="derivativeIdentitiesVtora">f \\, \' \\left(f(x)+g(x)\\right) = f \\, \' \\left(f(x) \\right) + f \\, \' \\left(g(x) \\right)</string>
+    <string name="derivativeIdentitiesTreta">f \\, \' \\left(f(g(x)) \\right) = f \\, \' \\left(f(g(x)) \\right) * f \\, \' \\left(g(x) \\right) \\; \\; \\text{(chain rule)}</string>
+    <string name="derivativeIdentitiesCetvrta">f \\, \' \\left(f(x)*g(x) \\right) = f \\, \' (x)g(x) + f(x)g \\, \' (x) \\; \\; \\text{(product rule)}</string>
+    <string name="derivativeIdentitiesPeta">f \\, \' \\left(\\frac{f(x)}{g(x)} \\right) = \\frac{f \\, \' (x)g(x) - f(x)g \\, \' (x)}{g^2(x)}</string>
+
+    <!--TABLE OF DERIVATIVES-->
+    <string name="tableOfDerivativesPrva">f \\, \' (c) = 0</string>
+    <string name="tableOfDerivativesVtora">f \\, \' (x) = 1</string>
+    <string name="tableOfDerivativesTreta">f \\, \' (x^n) = n*x^{n-1}</string>
+    <string name="tableOfDerivativesCetvrta">f \\, \' (e^x) = e^x</string>
+    <string name="tableOfDerivativesPeta">f \\, \' (b^x) = b^x * \\ln{b}</string>
+    <string name="tableOfDerivativesSesta">f \\, \' (\\ln{x}) = \\frac{1}{x}</string>
+    <string name="tableOfDerivativesSedma">f \\, \' (sin \\; x) = cos \\; x</string>
+    <string name="tableOfDerivativesOsma">f \\, \' (csc \\; x) = -csc \\; x \\; cot \\; x</string>
+    <string name="tableOfDerivativesDeveta">f \\, \' (cos \\; x) = -sin \\; x</string>
+    <string name="tableOfDerivativesDeseta">f \\, \' (sec \\; x) = sec \\; x \\; tan \\; x</string>
+    <string name="tableOfDerivativesEdinaesta">f \\, \' (tan \\; x) = sec^2 \\; x</string>
+    <string name="tableOfDerivativesDvanaesta">f \\, \' (cot \\; x) = -csc^2 \\; x</string>
+    <string name="tableOfDerivativesTrinaesta">f \\, \' (arcsin \\; x) = \\frac{1}{\\sqrt{1 - x^2}}</string>
+    <string name="tableOfDerivativesCetirinaesta">f \\, \' (arccsc \\; x) = \\frac{-1}{|x| \\sqrt{x^2 - 1}}</string>
+    <string name="tableOfDerivativesPetnaesta">f \\, \' (arccos \\; x) = \\frac{-1}{\\sqrt{1 - x^2}}</string>
+    <string name="tableOfDerivativesSesnaesta">f \\, \' (arcsec \\; x) = \\frac{1}{|x| \\sqrt{x^2 - 1}}</string>
+    <string name="tableOfDerivativesSedumnaesta">f \\, \' (arctan \\; x) = \\frac{1}{1 + x^2}</string>
+    <string name="tableOfDerivativesOsumnaesta">f \\, \' (arccot \\; x) = \\frac{1}{1 + x^2}</string>
+    <string name="tableOfDerivativesDevetnaesta">f \\, \' (sinh \\; x) = cosh \\; x</string>
+    <string name="tableOfDerivativesDvaesta">f \\, \' (csch \\; x) = -coth \\; x \\; csch \\; x</string>
+    <string name="tableOfDerivativesDvaesetiPrva">f \\, \' (cosh \\; x) = sinh \\; x</string>
+    <string name="tableOfDerivativesDvaesetiVtora">f \\, \' (sech \\; x) = -tanh \\; x \\; sech \\; x</string>
+    <string name="tableOfDerivativesDvaesetiTreta">f \\, \' (tanh \\; x) = 1 - tanh^2 \\; x</string>
+    <string name="tableOfDerivativesDvaesetiCetvrta">f \\, \' (coth \\; x) = 1 - coth^2 \\; x</string>
+
+    <!--SURFACE AREA FORMULAS-->
+    <string name="surfaceAreaFormulasCube">6a^2</string>
+    <string name="surfaceAreaFormulasRectangularPrism">2ab+2bc+2ac</string>
+    <string name="surfaceAreaFormulasAnyPrism">Perimeter(b)*L + 2Area(b)</string>
+    <string name="surfaceAreaFormulasSphere">4 \\pi r^2</string>
+    <string name="surfaceAreaFormulasCylinder">2 \\pi r^2 + 2 \\pi rh</string>
+
+    <!--AREA FORMULAS-->
+    <string name="areaFormulasSquare">a^2</string>
+    <string name="areaFormulasRectangle">ab</string>
+    <string name="areaFormulasParallelogram">bh</string>
+    <string name="areaFormulasTrapezoid">\\frac{h}{2}(b_1+b_2)</string>
+    <string name="areaFormulasCircle">\\pi r^2</string>
+    <string name="areaFormulasEllipse">\\pi r_1 r_2</string>
+    <string name="areaFormulasTriangle">\\frac{1}{2}(b*h)</string>
+    <string name="areaFormulasEquilateralTriangle">\\frac{\\sqrt{3}}{4}a^2</string>
+
+    <!--PERIMETER FORMULAS-->
+    <string name="perimeterFormulasSquare">4a</string>
+    <string name="perimeterFormulasRectangle">2a + 2b</string>
+    <string name="perimeterFormulasTriangle">a + b + c</string>
+    <string name="perimeterFormulasCircle">\\pi d \\; \\; \\text{(or)} \\; \\; 2 \\pi r</string>
+    
+    <!--VOLUME FORMULAS-->
+    <string name="volumeFormulasCube">a^3</string>
+    <string name="volumeFormulasRectangularPrism">a*b*c</string>
+    <string name="volumeFormulasIrregularPrism">b*h</string>
+    <string name="volumeFormulasCylinder">b*h \\; \\; \\text{(or)} \\; \\; \\pi*r^2*h</string>
+    <string name="volumeFormulasPyramid">\\frac{1}{3}b*h</string>
+    <string name="volumeFormulasCone">\\frac{1}{3}b*h \\; \\; \\text{(or)} \\; \\; \\frac{1}{3} \\pi * r^2 * h</string>
+    <string name="volumeFormulasSphere">\\frac{4}{3}\\pi * r^3</string>
+    <string name="volumeFormulasEllipsoid">\\frac{4}{3}\\pi * r_1 * r_2 * r_3</string>
+
+    <!--ALGEBRAIC GRAPHS-->
+    <string name="algebraGraphsPoint">x^2 + y^2 = 0</string>
+    <string name="algebraGraphsEllipseFirst">\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1</string>
+    <string name="algebraGraphsEllipseSecond">\\frac{x^2}{b^2} + \\frac{y^2}{a^2} = 1</string>
+    <string name="algebraGraphsParabolaFirst">4px = y^2</string>
+    <string name="algebraGraphsParabolaSecond">4py = x^2</string>
+    <string name="algebraGraphsCircle">x^2 + y^2 = r^2</string>
+    <string name="algebraGraphsHyperbolaFirst">\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1</string>
+    <string name="algebraGraphsHyperbolaSecond">\\frac{y^2}{a^2} - \\frac{x^2}{b^2} = 1</string>
+</resources>

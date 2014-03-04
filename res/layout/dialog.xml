@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="@color/Gray">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/BrightBlue"
+            android:text="Release: 4.0" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#737373"
+            android:text="27/02/2014"
+            android:id="@+id/about23" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:textColor="#737373"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="&#8226; Fixed on Back Button Pressed\n" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/BrightBlue"
+            android:text="Release: 3.7" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#737373"
+            android:text="23/02/2014" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:textColor="#737373"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="&#8226; Fixed displaying formulas for Android 4.4\n" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/BrightBlue"
+            android:text="Release: 3.6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#737373"
+            android:text="22/02/2014" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:textColor="#737373"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="&#8226; Major Design changes\n&#8226; Improved Navigation\n&#8226; Lighter version\n" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/BrightBlue"
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Developed by Lazar Nikolov.\nEmail: laki6sixx@gmail.com" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/lazarko"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#737373"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Thank you for downloading." />
+    </LinearLayout>
+</ScrollView>

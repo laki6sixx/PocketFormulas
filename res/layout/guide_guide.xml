@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/listviewbackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rlGuide">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose a category from the fancy menu drawer. You can access it by swiping from left to right, or clicking the icon left of the App Title."
+                android:id="@+id/tvGuide"
+                android:gravity="left"
+                android:textColor="@color/BrightBlue"
+                android:textSize="20dp"
+                android:layout_marginTop="46dp"
+                android:layout_below="@+id/imageView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:src="@drawable/menudrawer"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
