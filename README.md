@@ -3,11 +3,17 @@ Pocket Formulas
 
 This is the source code of my android app Pocket Formulas :) <br/>
 I know there are bugs, so if you want to help me fix them, write me an email with the solutions here:
-- laki6sixx@gmail.com
+- laki6sixx@gmail.com <br/>
+
+The formulas are rendered with the MathJax library: 
+- http://www.mathjax.org/
+
+For help around the MathJax library, visit this link:
+- http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
 
 ==============
-<b>======LICENSE======</b>
-
+<b>LICENSE</b>
+- 
 Copyright 2014 Lazar Nikolov
 
 Licensed under the Apache License, Version 2.0 (the "License");
